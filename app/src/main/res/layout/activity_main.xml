@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primaryColor"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_logo_tmbd"
+                android:layout_gravity="center_vertical"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            style="@style/MyMaterialTheme.TabLayout.Main"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_tab_layout_height"
+            android:background="@color/secondaryColor"
+            android:paddingLeft="@dimen/space_2"
+            android:paddingRight="@dimen/space_2"
+            app:tabGravity="fill"
+            app:tabMode="fixed" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

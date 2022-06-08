@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_label">11sp</dimen>
+    <dimen name="custom_tab_layout_height">60dp</dimen>
+    <dimen name="card_margin_main">0dp</dimen>
+    <dimen name="card_margin_content">0dp</dimen>
+
+    <dimen name="space_2">2dp</dimen>
+    <dimen name="space_3">3dp</dimen>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_5">5dp</dimen>
+    <dimen name="space_7">7dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_14">14dp</dimen>
+    <dimen name="space_15">15dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_18">18dp</dimen>
+    <dimen name="space_25">25dp</dimen>
+    <dimen name="space_35">35dp</dimen>
+    <dimen name="space_50">50dp</dimen>
+    <dimen name="space_40">40dp</dimen>
+    <dimen name="space_60">60dp</dimen>
+    <dimen name="space_100">100dp</dimen>
+    <dimen name="space_120">120dp</dimen>
+    <dimen name="space_180">180dp</dimen>
+    <dimen name="space_250">250dp</dimen>
+
+    <declare-styleable name="CircleCheckbox">
+        <attr name="showOuterCircle" format="boolean" />
+
+        <attr name="tickColor" format="string" />
+        <attr name="outerCircleColor" format="string" />
+        <attr name="innerCircleColor" format="string" />
+        <attr name="textColor" format="string" />
+        <attr name="circleBorderColor" format="string" />
+
+        <attr name="outerCircleRadius" format="dimension" />
+        <attr name="innerCircleRadius" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="borderThickness" format="dimension" />
+        <attr name="tickThickness" format="dimension" />
+
+        <attr name="textLeftPadding" format="dimension" />
+        <attr name="text" format="string" />
+
+    </declare-styleable>
+</resources>

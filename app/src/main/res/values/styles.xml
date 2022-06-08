@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Fullscreen" parent="MyMaterialTheme.Base">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MyMaterialTheme.Button" parent="MyMaterialTheme.Base">
+        <item name="colorControlHighlight">@color/blue</item>
+        <item name="colorButtonNormal">@color/blue2</item>
+    </style>
+
+    <style name="MyMaterialTheme.Button.Login" parent="MyMaterialTheme.Base">
+        <item name="colorControlHighlight">@color/blue</item>
+        <item name="colorButtonNormal">@color/blue2</item>
+    </style>
+
+    <style name="MyMaterialTheme.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/red2</item>
+        <item name="android:textColorPrimary">@color/primaryColor</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColor</item>
+        <item name="colorAccent">@color/tertiaryColor</item>
+    </style>
+
+    <style name="MyMaterialTheme.Base.Login" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColor</item>
+        <item name="colorAccent">@color/tertiaryColor</item>
+    </style>
+
+    <style name="MyMaterialTheme.TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabMaxWidth">@dimen/tab_max_width</item>
+        <item name="tabIndicatorColor">@color/primaryColor</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">8dp</item>
+        <item name="tabPaddingEnd">8dp</item>
+        <item name="tabTextAppearance">@style/MyMaterialTheme.TextAppearance</item>
+        <item name="tabSelectedTextColor">@color/primaryColor</item>
+    </style>
+    <style name="MyMaterialTheme.TextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray_5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyMaterialTheme.TabLayout.Main" parent="Widget.Design.TabLayout">
+        <item name="tabMaxWidth">@dimen/tab_max_width</item>
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabPaddingStart">8dp</item>
+        <item name="tabPaddingEnd">8dp</item>
+        <item name="tabTextAppearance">@style/MyMaterialTheme.TextAppearance</item>
+        <item name="tabSelectedTextColor">@color/black2</item>
+    </style>
+    <style name="MyMaterialTheme.TextAppearance.Main" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/blue2</item>
+    </style>
+
+    <declare-styleable name="font">
+        <attr name="type">
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+        <attr name="name">
+            <enum name="Header" value="1" />
+            <enum name="Header_Reguler" value="2" />
+            <enum name="Content" value="3" />
+            <enum name="Label" value="4" />
+            <enum name="Klavika" value="5" />
+            <enum name="Roboto" value="6" />
+            <enum name="Avenir_Black" value="7" />
+            <enum name="Avenir_BlackOblique" value="8" />
+            <enum name="Avenir_Book" value="9" />
+            <enum name="Avenir_BookOblique" value="10" />
+            <enum name="Avenir_Heavy" value="11" />
+            <enum name="Avenir_HeavyOblique" value="12" />
+            <enum name="Avenir_Light" value="13" />
+            <enum name="Avenir_LightOblique" value="14" />
+            <enum name="GOTHAM_BLACK" value="15" />
+            <enum name="GOTHAM_BOLD" value="16" />
+            <enum name="GOTHAM_BOOK" value="17" />
+            <enum name="GOTHAM_LIGHT" value="18" />
+            <enum name="GOTHAM_MEDIUM" value="19" />
+            <enum name="GOTHAM_LIGHTITALIC" value="20" />
+            <enum name="DROID_SANS" value="21" />
+            <enum name="DROID_SERIF_BOLD" value="22" />
+            <enum name="BELLO" value="23" />
+            <enum name="DROID_SERIF" value="24" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="UnderlinedTextView">
+        <attr name="underlineWidth" format="dimension" />
+        <attr name="underlineColor" format="color" />
+    </declare-styleable>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/gray_2</item>
+        <item name="colorControlActivated">@color/red2</item>
+    </style>
+
+</resources>

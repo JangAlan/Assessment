@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Assessment Android Developer</string>
+    <string name="movie">Movie</string>
+    <string name="tv">TV</string>
+    <string name="list_of_movie">List of Movie</string>
+    <string name="list_of_tvshow">List of TV</string>
+    <string name="show_indicator">Show Indicator</string>
+    <string name="title_movie">Title Movie</string>
+    <string name="date">Tanggal</string>
+    <string name="duration">Durasi Movie</string>
+    <string name="information">Informasi</string>
+    <string name="sinopsis">Sinopsis Movie</string>
+    <string name="detail_sinopsis">Detail Sinopsis Movie</string>
+    <string name="trailer">Trailer Movie</string>
+
+    <string name="title_tv">Title TV</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="episode">Episode</string>
+    <string name="det_episode">Episode ke ...</string>
+    <string name="total_episode">100 Episode</string>
+    <string name="detail_primer_episode">Detail Episode</string>
+
+
+</resources>
